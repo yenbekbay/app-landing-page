@@ -3,10 +3,11 @@
 1. Start by [installing Bundler](http://bundler.io) `sudo gem install bundler`
 2. [Fork the landing page repository](https://github.com/yenbekbay/app-landing-page/fork)
 3. Clone the repository you just forked: `git clone https://github.com/YOUR-USER/app-landing-page`
-4. Then run `bundle install` to get [Jekyll](http://jekyllrb.com) and all the dependencies.
-5. Edit `_config.yml` as needed.
-6. Run the Jekyll server with `bundle exec jekyll serve`
-7. Go to `http://localhost:4000`
+4. Enter `cd app-landing-page`
+5. Then run `bundle install` to get [Jekyll](http://jekyllrb.com) and all the dependencies.
+6. Edit `_config.yml` as needed.
+7. Run the Jekyll server with `bundle exec jekyll serve`
+8. Go to `http://localhost:4000`
 
 ## Deploy your site to GitHub Pages
 
