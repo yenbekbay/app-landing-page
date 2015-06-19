@@ -1,0 +1,30 @@
+# general configuration
+url: http://example.com
+baseurl: '/landing-page'
+
+# app configuration
+app:
+  # an avatar or logo (optional)
+  logo: "/images/logo.png"
+  # author will appear under the avatar (optional)
+  author: "Название эппа"
+  # tagline will appear under the title (optional)
+  tagline: "Короткое описание эппа (одно предложение)."
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  include_content: true
+  # if inclide_subscription_form is true, the contents of the subscription.html
+  # include will be added right below the content.html, if present
+  inclide_subscription_form: true
+  # if include_analytics is true, the content of the analytics.html include will
+  # be added at the end of the <head> section. You can add your Google Analytics
+  # Tracking Code to that file.
+  include_analytics: false
+
+# Dependencies
+markdown: kramdown
+highlighter: pygments
+
+# Permalinks
+permalink: pretty
+relative_permalinks: true

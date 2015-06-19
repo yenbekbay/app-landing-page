@@ -1,0 +1,27 @@
+---
+layout: base
+---
+<div class="wrapper">
+    <header>
+        {% if site.app.logo %}
+        <div class="logo-container">
+          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.app.logo }}')"></a>
+        </div>
+        {% endif %}
+
+        {% if site.app.author %}
+        <div class="author-container"><h1>{{ site.app.author }}</h1></div>
+        {% endif %}
+
+        {% if site.app.tagline %}
+        <div class="tagline-container"><p>{{ site.app.tagline }}</p></div>
+        {% endif %}
+    </header>
+    <main>
+      {% if site.app.include_content %}
+      <div class="content">
+        {% include content.html %}
+      </div>
+      {% endif %}
+    </main>
+</div>
