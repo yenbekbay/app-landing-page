@@ -7,7 +7,7 @@
 5. Then run `bundle install` to get [Jekyll](http://jekyllrb.com) and all the dependencies.
 6. Edit `_config.yml` and `content.html` as needed.
 7. Run the Jekyll server with `bundle exec jekyll serve`
-8. Go to `http://localhost:4000`
+8. Go to `http://localhost:4000/app-landing-page/`
 
 Note:
 If you edit css files, your landing page will update, but if you edit html files, the changes won't be reflected until you run `bundle exec jekyll serve` again.
