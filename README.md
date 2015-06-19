@@ -1,6 +1,6 @@
 ## How to use
 
-1. Start by [installing Bundler](http://bundler.io) `gem install bundler`
+1. Start by [installing Bundler](http://bundler.io) `sudo gem install bundler`
 2. [Fork the landing page repository](https://github.com/yenbekbay/app-landing-page/fork)
 3. Clone the repository you just forked: `git clone https://github.com/YOUR-USER/app-landing-page`
 4. Then run `bundle install` to get [Jekyll](http://jekyllrb.com) and all the dependencies.
