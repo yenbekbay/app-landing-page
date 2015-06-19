@@ -1,7 +1,7 @@
 ## How to use
 
 1. Start by [installing Bundler](http://bundler.io) `gem install bundler`
-2. [Fork the landing page repository](https://github.com/excentris/app-landing-page/fork)
+2. [Fork the landing page repository](https://github.com/yenbekbay/app-landing-page/fork)
 3. Then run `bundle install` to get [Jekyll](http://jekyllrb.com) and all the dependencies.
 4. Clone the repository you just forked: `git clone https://github.com/YOUR-USER/app-landing-page`
 5. Edit `_config.yml` as needed.

@@ -1,6 +1,6 @@
 # general configuration
 url: http://example.com
-baseurl: '/landing-page'
+baseurl: '/app-landing-page'
 
 # app configuration
 app:
